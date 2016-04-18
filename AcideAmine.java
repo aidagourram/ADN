@@ -1,29 +1,29 @@
 package dna.com;
 
-public class AcideAmine {
+public class TableAcideAmine {
 	
-	public AcideAmine() {
-		String []ala = {"GCA","GCC","GCG","GCT"};
-		String []arg = {"CGA","CGC","CGG","CGT","AGA","AGG"};
-		String []asp ={"GAC","GAT"};
-		String []asn ={"AAC","AAT"};
-		String []cys ={"TGC","TGT"};
+	public TableAcideAmine() {
+		String []ala = {"GCU","GCC","GCG","GCG"};
+		String []arg = {"GGU","GCG","CGA","CGG","AGA","AGG"};
+		String []asp ={"GAC","GAU"};
+		String []asn ={"AAC","AAU"};
+		String []cys ={"UGC","UGU"};
 		String []glu ={"GAA","GAG"};
 		String []gln ={"CAA","CAG"};
-		String []gly ={"GGA","GGC","GGG","GGT"};
-		String []his ={"CAC","CAT"};
-		String []ile ={"ATA","ATC","ATT"};
-		String []leu ={"CTA","CTC","CTG","CTT","TTA","TTG"};
+		String []gly ={"GGU","GGA","GGG","GGC"};
+		String []his ={"CAU","CAC"};
+		String []ile ={"AUA","AUC","AUU"};
+		String []leu ={"UUA","UUG","CUU","CUC","CUA","CUG"};
 		String []lys ={"AAA","AAG"};
-		String []met ={"ATG"};
-		String []phe ={"TTC","TTT"};
-		String []pro ={"CCA","CCC","CCG","CCT"};
-		String []ser ={"TCA","TCC","TCG","TCT","AGC","AGT"};
-		String []thr ={"ACT","ACC","ACG","ACT"};
-		String []trp ={"TGG"};
-		String []tyr ={"TAC","TAT"};
-		String []val ={"GTA","GTC","GTG","GTT"};
-		String []stop ={"TAG","TAA","TGA"};
+		String []met ={"AUG"};
+		String []phe ={"UUU","UUC"};
+		String []pro ={"CUU","CCC","CCA","CCG"};
+		String []ser ={"UCU","UCC","UCA","UCG","AGU","AGC"};
+		String []thr ={"ACU","ACC","ACA","ACG"};
+		String []trp ={"UGC"};
+		String []tyr ={"UAU","UAC"};
+		String []val ={"GUA","GUC","GUG","GUU"};
+		String []stop ={"UAG","UAA","UGA"};
 		
 	}
 
@@ -33,4 +33,3 @@ public class AcideAmine {
 				+ super.toString() + "]";
 	}
 }
-
